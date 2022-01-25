@@ -1,0 +1,93 @@
+
+:root {
+  // Color System Basic
+
+  --color-gray-100: #f8f9fa;
+  --color-gray-200: #e9ecef;
+  --color-gray-300: #dee2e6;
+  --color-gray-400: #ced4da;
+  --color-gray-500: #adb5bd;
+  --color-gray-600: #6c757d;
+  --color-gray-700: #495057;
+  --color-gray-800: #343a40;
+  --color-gray-900: #212529;
+
+  --body-text-color: var(--color-gray-900);
+
+  --font-size-base : 1rem;
+  --font-weight-base : 400;
+
+  --font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace:  SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  --font-family-base: var(--font-family-sans-serif);
+  --font-family-code: var(--font-family-monospace);
+
+  --font-size-tiny:  var(--font-size-base) * .75; 
+  --font-size-sm:  var(--font-size-base) * .875;
+  --font-size-lg:  var(--font-size-base) * .1.25;
+
+  --font-weight-normal: var(--font-weight-base);
+  --font-weight-bolder: bolder;
+  --line-height-base: 1.75em;
+
+  //
+  --spacer : 1rem;
+  --spacer-0 : 0;
+  --spacer-02 : calc(var(--spacer)/8);
+  --spacer-04 : calc(var(--spacer)/4);
+  --spacer-08 : calc(var(--spacer)/2);
+  --spacer-12 : calc(var(--spacer)*0.75);
+  --spacer-16 : 1rem;
+  --spacer-20 : calc(var(--spacer)*1.25);
+  --spacer-24 : calc(var(--spacer)*1.5);
+  --spacer-28 : calc(var(--spacer)*1.75);
+  --spacer-32 : calc(var(--spacer)*2);
+  --spacer-36 : calc(var(--spacer)*2.25);
+  --spacer-40 : calc(var(--spacer)*2.5);
+  --spacer-44 : calc(var(--spacer)*2.75);
+  --spacer-48 : calc(var(--spacer)*3);
+  
+
+  // heading
+  --h1-font-size: calc(var(--font-size-base) * 2.5);
+  --h2-font-size: calc(var(--font-size-base) * 2);
+  --h3-font-size: calc(var(--font-size-base) * 1.75);
+  --h4-font-size: calc(var(--font-size-base) * 1.5);
+  --h5-font-size: calc(var(--font-size-base) * 1.25);
+  --h6-font-size: var(--font-size-base );
+
+  --headings-margin-bottom:  calc($spacer / 2);
+  --headings-font-family:        null;
+  --headings-font-style:         null;
+  --headings-font-weight:        700;
+  --headings-line-height:        1.2;
+  --headings-color:              null;
+
+  // link Style
+  --link-color: var(--color-gray-900);
+  --link-decoration: none;
+  --link-hover-color: #000000;
+  --link-hover-decoration: underline;
+
+  --hr-color : var(--color-gray-300);
+
+  --mark-padding : 2em;
+  --mark-bg : #ffffff;
+  --sub-sup-font-size:.75em ;
+  --paragraph-margin-bottom:  1rem;
+}
+
+// ---------------------
+// aspect-ratios
+$aspect-ratios: (
+  "1x1": 100%,
+  "4x3": calc(3 / 4 * 100%),
+  "16x9": calc(9 / 16 * 100%),
+  "21x9": calc(9 / 21 * 100%)
+) !default;
+
+
+
+
+
